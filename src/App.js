@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div>
-      <h1>투두 리스트({toDos.length})</h1>
+      <h1>투두 리스트 입니다({toDos.length})</h1>
       <form onSubmit={onSub}>
         <input onChange={Change} value={toDo} type="text" placeholder='당신의 할일을 쓰세요.' />
         <button>등록하기</button>
